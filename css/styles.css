@@ -46,44 +46,64 @@ img {
   flex-grow: 1;
 }
 
-.container-inside {
-  padding-top: 100px;
+/* BUTTON STYLES */
+.btn {
+  display: block;
+  width: 260px;
+  padding: 12px 0;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+
+/* HEADER */
+.site-header {
+  background-color: #fff;
+  margin-bottom: 80px;
+}
+.site-header-container {
   display: flex;
+  padding-top: 30px;
 }
-.container-left {
+.site-logo-link {
+  margin-right: auto;
+}
+.site-logo-img {
+  width: 35px;
+  height: 42px;
+  display: block;
+  object-fit: contain;
+}
+.site-header-list {
+  list-style-type: none;
   padding: 0;
   margin: 0;
-  width: 888px;
-  height: 854px;
+  display: flex;
+  align-items: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
-.apple-logo {
-  width: 150px;
-  height: 170px;
-  color: #333;
-  padding: 0;
-  margin: 0;
-  margin-top: 50px;
-  margin-left: 190px;
+.site-header-item:not(:last-child){
+  margin-right: 30px;
 }
-.apple-h2 {
-  font-family: Roboto, "Arial", sans-serif;
-  font-size: 100px;
-  line-height: 120px;
-  margin: 0;
-  padding: 0;
-  color: #000;
-  text-align: center;
+
+.site-header-item:last-child{
+  margin-left: 40px;
 }
-.watch-h2 {
-  font-family: Roboto, "Arial", sans-serif;
-  font-size: 100px;
-  line-height: 120px;
-  margin: 0;
-  padding: 0;
-  color: #ea625c;
-  text-align: center;
+
+.site-header-link {
+  position: relative;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 23px;
+  color:#333;
+  padding-bottom: 6px;
 }
-.container-right {
-  width: 888px;
-  height: 854px;
+.active-link {
+  color:#666;
+  border-bottom: 1px solid #333;
 }
