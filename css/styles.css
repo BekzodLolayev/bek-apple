@@ -152,3 +152,50 @@ img {
   background-color:#EA625C;
   color:#fff;
 }
+
+/* FEATURE BLOCK */
+.features {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  color:#333;
+  margin-bottom: 70px;
+}
+
+.features-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+}
+.features-item {
+  width: 100%;
+  max-width: 280px;
+}
+.features-item:not(:last-child) {
+  margin-right: 80px;
+}
+
+.features-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  color:#000;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.features-text {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.squares {
+  display: flex;
+}
+.square {
+  width: 8px;
+  height: 8px;
+  background-color:#ddd;
+  margin-right: 10px;
+}
