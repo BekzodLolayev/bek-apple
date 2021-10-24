@@ -107,3 +107,48 @@ img {
   color:#666;
   border-bottom: 1px solid #333;
 }
+
+
+/* HERO */
+.hero {
+  padding-top: 91px;
+  padding-bottom: 185px;
+  background-image: url(../img/apple-watch.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  border-bottom: 2px solid #ddd;;
+}
+
+.current-block-inner {
+  width: 490px;
+}
+.current-block-heading {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  color:#000;
+}
+.current-block-text {
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-left: 40px;
+  border-left: 3px solid #888;
+}
+.btn {
+  display: block;
+  width: 260px;
+  padding: 12px 0;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+}
+.btn-danger {
+  background-color:#EA625C;
+  color:#fff;
+}
