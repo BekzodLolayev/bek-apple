@@ -199,3 +199,14 @@ img {
   background-color:#ddd;
   margin-right: 10px;
 }
+.more-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.more-link-inner {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  color:#EA625C;
+}
